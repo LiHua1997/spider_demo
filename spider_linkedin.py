@@ -16,7 +16,7 @@ def search(company_name, nums):
         browser.get('https://www.baidu.com')
         input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#kw")))
         submit = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#su")))
-        input.send_keys(company_name)
+        input.send_keys(company_name + ' site:linkedin.com')
         time.sleep(1)
         submit.click()
         time.sleep(2)
