@@ -70,7 +70,7 @@ PySocks==1.6.8
 pyspider==0.3.10
 python-dateutil==2.7.3
 pytz==2019.1
-PyYAML==3.13
+PyYAML==5.1
 pyzmq==17.1.2
 qtconsole==4.5.2
 query-string==2019.4.13
