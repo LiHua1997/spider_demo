@@ -74,7 +74,9 @@ def get_result(page_num, doc):
             't': doc(pos_taget).text(),
             'cshowurl': doc(pos_showlink).text().split(' ')[0]
         }
-        save_to_mongo(result) def get_result(page_num, doc):
+        save_to_mongo(result)
+
+def get_result(page_num, doc):
     """获取百度搜索内容"""
     #解析各内容对应的位置信息
     for i in range((int(page_num) - 1)*10 + 1, int(page_num)*10 + 1):
