@@ -58,7 +58,7 @@ def get_doc():
     doc = pq(html)
     return doc
 
- def get_result(page_num, doc):
+def get_result(page_num, doc):
     """获取百度搜索内容"""
     #解析各内容对应的位置信息
     for i in range((int(page_num) - 1)*10 + 1, int(page_num)*10 + 1):
