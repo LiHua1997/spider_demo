@@ -95,4 +95,4 @@ wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==1.0.1
 widgetsnbextension==3.4.1
-WsgiDAV==3.0.3
+WsgiDAV==4.1.0
